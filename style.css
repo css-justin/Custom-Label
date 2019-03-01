@@ -1,0 +1,109 @@
+html,body {
+    font-family: 'Times New Roman', Times, serif;
+    /*text-align: center;*/
+    /*color: #ffffff*/
+}
+
+#main {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.box {
+    position: relative;
+    max-height: 1.78in;
+    min-height: 1.78in;
+    height: 1.78in;
+    max-width: 3.6in;
+    min-width: 3.6in;
+    width: 3.6in;
+    margin: 0;
+    padding: 0 0 0 2px;
+    overflow: hidden;
+    border-radius: 1%;
+    line-height: 170px;
+    background-color: #ffffff;
+    
+}
+
+.label-company-name {
+    color: #000000;
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    font-size: 15px;
+    
+}
+
+
+.label-location {
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    font-size: 13px;
+}
+
+.label-brand-model {
+    text-align: center;
+    
+}
+
+ 
+.label-packaging {
+    color: #000000;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    font-size: 17px;
+
+}
+
+
+.label-serial-number {
+    color: #000000;
+    position: absolute;
+    bottom: -90px;
+    left: 5px;
+    font-size: 12px;
+}
+
+.label-family-subfamily {
+    color: #000000;
+    position: absolute;
+    top: 8px;
+    left: 90px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+
+.qr-code {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 82px;
+}
+
+.shortened-qr-code {
+    position: absolute;
+    bottom: 44px;
+    right: 0;
+    left: 202px;
+    font-size: 12px;
+}
+
+.bar-code {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 200px;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    width: 70px;
+}
