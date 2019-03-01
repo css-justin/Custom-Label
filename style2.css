@@ -1,0 +1,67 @@
+html,body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.box {
+    position: relative;
+    max-height: 1.78in;
+    min-height: 1.78in;
+    height: 1.78in;
+    max-width: 3.6in;
+    min-width: 3.6in;
+    width: 3.6in;
+    margin: 0;
+    padding: 0 0 0 2px;
+    overflow: hidden;
+    border-radius: 1%;
+    line-height: 170px;
+    background-color: #ffffff;
+    
+}
+
+.label-brand {
+    position: absolute;
+    top: -80px;
+    left: 10px;
+}
+
+.label-model {
+    position: absolute;
+    top: -60px;
+    left: 10px;
+}
+
+.label-additional-info {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+}
+
+.qr-code {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 160px;
+    height: 160px;
+}
+
+.shortened-qr-code {
+    position: absolute;
+    top: -30px;
+    right: 128px;
+    font-size: 16px;
+    transform: rotate(-90deg);
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 70px;
+}
