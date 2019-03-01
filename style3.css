@@ -64,7 +64,7 @@ html,body {
 .shortened-qr-code {
     position: absolute;
     top: -30px;
-    right: -30px;
+    right: -25px;
     font-size: 18px;
     transform: rotate(-90deg);
 }
