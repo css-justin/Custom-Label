@@ -1,0 +1,134 @@
+html,body {
+    font-family: 'Times New Roman', Times, serif;
+    /*text-align: center;*/
+    /*color: #ffffff*/
+}
+
+#main {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.box {
+    position: relative;
+    max-height: 1.78in;
+    min-height: 1.78in;
+    height: 1.78in;
+    max-width: 3.6in;
+    min-width: 3.6in;
+    width: 3.6in;
+    margin: 0;
+    padding: 0 0 0 2px;
+    overflow: hidden;
+    border-radius: 1%;
+    line-height: 170px;
+    background-color: #ffffff;
+    
+}
+
+.label-company-name {
+    color: #000000;
+    position: absolute;
+    top: -70px;
+    left: 10px;
+    font-size: 15px;
+    
+}
+
+.label-product {
+    position: absolute;
+    top: -50px;
+    left: 10px;
+}
+
+.label-brand {
+    position: absolute;
+    top: -50px;
+    left: 80px;
+}
+
+.label-model {
+    position: absolute;
+    top: -35px;
+    left: 10px;
+}
+
+.label-additional-info {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}
+
+/*.label-location {
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    font-size: 13px;
+} 
+
+.label-brand-model {
+    text-align: center;
+    
+}
+
+ 
+.label-packaging {
+    color: #000000;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    font-size: 17px;
+
+}*/
+
+
+.label-serial-number {
+    color: #000000;
+    position: absolute;
+    bottom: -86px;
+    right: 21px;
+    font-size: 16px;
+}
+
+/*.label-family-subfamily {
+    color: #000000;
+    position: absolute;
+    top: 8px;
+    left: 90px;
+    font-size: 17px;
+    text-transform: uppercase;
+}*/
+
+
+.qr-code {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.shortened-qr-code {
+    position: absolute;
+    bottom: 38px;
+    right: 70px;
+    left: 120px;
+    font-size: 12px;
+    transform: rotate(-90deg);
+}
+
+.bar-code {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 200px;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    width: 70px;
+}
