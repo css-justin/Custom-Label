@@ -1,0 +1,87 @@
+html,body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.box {
+    position: relative;
+    max-height: 1.78in;
+    min-height: 1.78in;
+    height: 1.78in;
+    max-width: 3.6in;
+    min-width: 3.6in;
+    width: 3.6in;
+    margin: 0;
+    padding: 0 0 0 2px;
+    overflow: hidden;
+    border-radius: 1%;
+    line-height: 170px;
+    background-color: #ffffff;
+    
+}
+
+.label-brand {
+    position: absolute;
+    top: -80px;
+    left: 60px;
+    font-size: 14px;
+}
+
+.label-model {
+    position: absolute;
+    top: -60px;
+    left: 60px;
+    font-size: 14px;
+}
+
+.label-additional-info {
+    position: absolute;
+    top: -20px;
+    left: 60px;
+    font-size: 14px;
+}
+ 
+.label-packaging {
+    color: #000000;
+    position: absolute;
+    top: -40px;
+    left: 60px;
+    font-size: 14px;
+}
+
+.qr-code {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+.shortened-qr-code {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    font-size: 18px;
+    transform: rotate(-90deg);
+}
+
+.bar-code {
+    position: absolute;
+    bottom: 68px;
+    left: -80px;
+    height: 27px;
+    width: 190px;
+    transform: rotate(-90deg);
+}
+
+.logo {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    display: inline-block;
+    width: 70px;
+}
