@@ -1,4 +1,4 @@
-html,body {
+html,body { /*style 1*/
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -75,7 +75,7 @@ html,body {
 
 .shortened-qr-code {
     position: absolute;
-    bottom: -87px;
+    bottom: -91px;
     right: 25px;
     font-size: 25px;
 }
