@@ -33,14 +33,14 @@ html,body {
 
 .label-model {
     position: absolute;
-    top: -60px;
+    top: -40px;
     left: 40px;
     font-size: 14px;
 }
 
 .label-additional-info {
     position: absolute;
-    top: -20px;
+    bottom: -70px;
     left: 40px;
     font-size: 14px;
 }
@@ -48,7 +48,7 @@ html,body {
 .label-packaging {
     color: #000000;
     position: absolute;
-    top: -40px;
+    top: 0px;
     left: 40px;
     font-size: 14px;
 }
