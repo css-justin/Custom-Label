@@ -1,0 +1,170 @@
+<style>
+.itemLabel_v4 {
+
+    }
+
+    .widgetPrintSystem_label_labelBLOCK.itemLabel_v4 {
+        position: relative !important;
+        font-family: Arial, Helvetica, sans-serif !important;
+        max-height: 2.125in !important;
+        min-height: 2.125in !important;
+        height: 2.125in !important;
+        max-width: 4in !important;
+        min-width: 4in !important;
+        width: 4in !important;
+        margin: 0 !important;
+        padding: 0 0 0 2px !important;
+        overflow: hidden !important;
+    }
+    
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.expiriation_date {
+        position: absolute !important;
+        right: 37px !important;
+        bottom: 8px !important;
+        text-align: left !important;
+        font-weight: bolder !important;
+        font-size: 16px !important;
+        color: #000;
+        border: 1px solid black;
+        z-index: 1;
+    }
+    
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.lot_number {
+        position: absolute !important;
+        display: none !important;
+        right: 37px !important;
+        bottom: 34px !important;
+        text-align: left !important;
+        font-weight: 800 !important;
+        font-size: 12px !important;
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.liveqrdata {
+
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.qr1data {
+
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.code39 { /*barcode*/
+        transform: scale(0.85,2) !important;
+        position: absolute !important;
+        top: 186px !important;
+        left: -2px !important;
+        font-size: 10px !important;
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.liveqr_hr { /*shortened qr*/
+        position: absolute !important;
+        left: 12px !important;
+        bottom: 108px !important;
+        font-size: 13px !important;
+        font-weight: 800 !important;
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.qr1 { /*LiveQR*/
+        position: absolute !important;
+        left:  5px !important;
+        top: 0px !important;
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.company_name {
+        position: absolute !important;
+        text-align: left !important;
+        left: 102px !important;
+        top: 7px !important;
+        font-size: 12px !important;
+        font-weight: 800 !important;
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.destinationName {
+        position: absolute !important;
+        bottom: 37px !important;
+        right: 40px !important;
+        font-size: 11px !important;
+        text-align: left !important;
+        font-weight: bolder !important;
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.brand_model {
+        position: absolute !important;
+        text-align: center !important;
+        left: 96px !important;
+        top: 108px !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.name_packaging { /* common name and packaging description*/
+        position: absolute !important;
+        text-align: center !important;
+        top: 64px !important;
+        left: 96px !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.family_subfamily {
+        position: absolute !important;
+        text-align: center !important;
+        top: 35px !important;
+        left: 102px !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.serialNo {
+        position: absolute !important;
+        bottom: 35px !important;
+
+        left: 14px !important;
+        font-size: 12px !important;
+        font-weight: 800 !important;
+        text-align: left !important;
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.addInfo { /*additional info*/
+        position: absolute !important;
+        bottom: 68px !important;
+        left: 12px !important;
+        text-align: left !important;
+        font-weight: bold !important;
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.bulkText {
+        position: absolute !important;
+        top: 30px !important;
+        right: 45px !important;
+        display: none !important;
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        width: 60px !important;
+        padding: 3px !important;
+        text-align: center !important;
+    }
+
+    .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.branding {
+        
+    }
+
+    .itemLabel_v4 #img_trxio_label_logo {
+        position: absolute !important;
+        top: 6px !important;
+        right: 37px !important;
+    }
+   
+    /*.itemLabel_v4 .liveqr_code39 {
+        
+    }
+    
+    .itemLabel_v4 .under_qr {
+        
+    }
+    
+    .itemLabel_v4 .extra {
+        
+    }
+ */
+
+</style>
