@@ -48,10 +48,10 @@
     }
 
     .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.code39 { /*barcode*/
-        transform: scale(0.85,2) !important;
+        transform: scale(1.3,2) !important;
         position: absolute !important;
         top: 186px !important;
-        left: -2px !important;
+        left: 64px !important;
         font-size: 10px !important;
     }
 
