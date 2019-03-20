@@ -1,0 +1,24 @@
+<div class="widgetPrintSystem_label_labelBLOCK itemLabel_v4">
+    <span class="widgetPrintSystem_label_itemLabel_labelDATA liveqrdata" style="display: none;"></span>
+    <span class="widgetPrintSystem_label_itemLabel_labelDATA qr1data" style="display: none;"></span>
+    <div class="liveqr_code39">
+        <div class="widgetPrintSystem_label_itemLabel_labelDATA code39"></div>
+        <h3 class="widgetPrintSystem_label_itemLabel_labelDATA liveqr_hr"></h3>
+    </div>
+    <div class="widgetPrintSystem_label_itemLabel_labelDATA qr1"></div>
+    <h1 class="widgetPrintSystem_label_itemLabel_labelDATA company_name"></h1>
+    <h5 class="widgetPrintSystem_label_itemLabel_labelDATA destinationName"></h5>
+    <div class="under_qr">
+        <h3 style="word-wrap: break-word; width: 212px" class="widgetPrintSystem_label_itemLabel_labelDATA brand_model"></h3>
+        <h4 style="word-wrap: break-word; width: 212px" class="widgetPrintSystem_label_itemLabel_labelDATA name_packaging"></h4>
+        <h4 class="widgetPrintSystem_label_itemLabel_labelDATA family_subfamily"></h4>
+        <div class="extra">
+            <h5 class="widgetPrintSystem_label_itemLabel_labelDATA serialNo"></h5>
+            <h5 style="word-wrap: break-word; width: 80px" class="widgetPrintSystem_label_itemLabel_labelDATA addInfo"></h5>
+        </div>
+    </div>
+    <div style="word-wrap: break-word; width: 1px" class="widgetPrintSystem_label_itemLabel_labelDATA bulkText">BULK</div>
+    <div class="widgetPrintSystem_label_itemLabel_labelDATA branding">
+        <img width="82" id="img_trxio_label_logo" src="/app/public/images/logos/trxio_200x43.png">
+    </div>
+</div>
