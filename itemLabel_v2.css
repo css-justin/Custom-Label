@@ -1,17 +1,17 @@
 <?php
 
 ?>
-<style> /*4 x 2*/
-   .itemLabel_v2{
+<style>
+    .itemLabel_v2{
         font-family: Arial, Helvetica, sans-serif;
         text-transform: uppercase;
     }
     
     .itemLabel_v2 .img_trxio_label_logo {
-        position: absolute;
-        bottom: 3px;
-        right: 1px;
-        display: inline-block;
+        position: absolute !important;
+        bottom: 3px !important;
+        right: 1px !important;
+        display: inline-block !important;
     }
     
     .widgetPrintSystem_label_labelBLOCK.itemLabel.itemLabel_v2 {
@@ -23,109 +23,119 @@
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA.qr1data {
-        transform: scale(5,5)
+        transform: scale(5,5) !important;
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA.code39 { /*barcode*/
-        position: absolute;
-        bottom: -14px;
-        left: -16px;
-        display: inline-block;
-        transform: scale(0.8,0.8); /* (0.7,0.7) rotate(90deg) for style2*/
+        position: absolute !important;
+        bottom: -14px !important;
+        left: 4px !important;
+        display: inline-block !important;
+        transform: scale(1,1) !important; /* (0.7,0.7) rotate(90deg) for style2*/
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA.liveqr_hr { /*shortened QR*/
-        position: absolute;
-        bottom: 38px;
-        right: -27px;
-        display: inline-block;
-        font-size: 15px;
-        font-weight: 500;
-        transform: rotate(-90deg);
+        position: absolute !important;
+        bottom: 36px !important;
+        right: -27px !important;
+        display: inline-block !important;
+        font-size: 15px !important;
+        font-weight: 800 !important;
+        transform: rotate(-90deg) !important;
         
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA.qr1{/*QR code*/
-        position: absolute;
-        right: 20px;
-        bottom: -9px;
-        height: 90px;
-        width: 90px;
+        position: absolute !important;
+        right: 20px !important;
+        bottom: -9px !important;
+        height: 90px !important;
+        width: 90px !important;
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA.company_name {
-        position: absolute;
-        top: 10px;
-        text-align: left;
-        /*left: 2px;*/
-        font-weight: bolder;
-        font-size: 18px;
-        max-height: 26px;
+        position: absolute !important;
+        top: 8px !important;
+        text-align: left !important;
+        left: 1px !important;
+        font-weight: bolder !important;
+        font-size: 18px !important;
+        max-height: 26px !important;
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA.destinationName {
-        
+        position: absolute !important;
+        top: 5px !important;
+        right: 15px !important;
+        font-size: 11px !important;
+        text-align: left !important;
+        font-weight: bolder !important;
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA.brand_model {/*Brand and model*/
-        position: absolute;
-        text-align: left;
-        top: 34px;
-        font-size: 16px;
-        max-height: 18px;
-        min-height: 18px;
-        height: 18px;
-        left: 2px;
+        position: absolute !important;
+        text-align: left !important;
+        top: 34px !important;
+        font-size: 16px !important;
+        max-height: 18px !important;
+        min-height: 18px !important;
+        height: 18px !important;
+        left: 2px !important;
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA.name_packaging {/*Packaging Description*/
-        position: relative;
-        text-align: left;
-        font-size: 12px;
-        max-height: 14px;
-        min-height: 14px;
-        height: 14px;
-        top: 76px;
-        left: 0px;
-        font-weight: normal;
-        word-wrap: break-word: 
+        position: relative !important;
+        text-align: left !important;
+        font-size: 12px !important;
+        max-height: 14px !important;
+        min-height: 14px !important;
+        height: 14px !important;
+        top: 56px !important;
+        left: 0px !important;
+        font-weight: normal !important;
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA.family_subfamily {/*family/subfamily*/
-        font-size: 12px;
-        position: relative;
-        text-align: left;
-        max-height: 14px;
-        min-height: 14px;
-        height: 14px;
-        left: 1px;
-        top: 85px;
-        font-weight: normal;
+        font-size: 12px !important;
+        position: relative !important;
+        text-align: left !important;
+        max-height: 14px !important;
+        min-height: 14px !important;
+        height: 14px !important;
+        left: 1px !important;
+        top: 76px !important;
+        font-weight: normal !important;
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA.serialNo {
-        position: absolute;
-        right: -50px;
-        bottom: 65px;
-        transform: rotate(-90deg);
+        position: absolute !important;
+        left: 2px !important;
+        bottom: 44px !important;
+        /*transform: rotate(-90deg) !important;*/
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA.addInfo { /*additional info*/
-        position: relative;
-        text-align: left;
-        font-size: 12px;
-        max-height: 14px;
-        min-height: 14px;
-        height: 14px;
-        font-weight: bolder;
-        top: 95px;
-        left: 0px;
+        position: relative !important;
+        text-align: left !important;
+        font-size: 12px !important;
+        max-height: 14px !important;
+        min-height: 14px !important;
+        height: 14px !important;
+        font-weight: bolder !important;
+        top: 105px !important;
+        left: 0px !important;
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA.bulkText {
-        position: absolute;
-        bottom: 5px;
-        right: 110px;
+        position: absolute !important;
+        bottom: 78px !important;
+        right: 36px !important;
+        /*display: none !important;*/
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        width: 60px !important;
+        padding: 3px !important;
+        text-align: center !important;
     }
     
     .itemLabel_v2 .widgetPrintSystem_label_itemLabel_labelDATA branding {
