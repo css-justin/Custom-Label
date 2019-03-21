@@ -1,3 +1,25 @@
+<?php
+/**
+ * Platform: trxio
+ * View Type: labelTemplate
+ * Client: Default
+ * View: itemLabel
+ * Description:
+ *   This is the main itemLabel.  This label creates inventory and assigns codes 
+ *   to individual items.
+ * Data Classes:
+ *   .widgetPrintSystem_label_itemsDetail_labelDATA.code39              --  8-Digit ShortCode
+ *   .widgetPrintSystem_label_itemsDetail_labelDATA.liveqr_hr           --  LiveQR (Human Readable)
+ *   .widgetPrintSystem_label_itemsDetail_labelDATA.qr1                 --  Gets filled with an encoded <img> tag
+ *   .widgetPrintSystem_label_itemsDetail_labelDATA.company_name        --  Description
+ *   .widgetPrintSystem_label_itemsDetail_labelDATA.brand_model         --  Description
+ *   .widgetPrintSystem_label_itemsDetail_labelDATA.name_packaging      --  Description
+ *   .widgetPrintSystem_label_itemsDetail_labelDATA.family_subfamily    --  Description
+ *   .widgetPrintSystem_label_itemsDetail_labelDATA.destinationName     --  Description
+ *   .widgetPrintSystem_label_itemsDetail_labelDATA.serialNo            --  Description
+ *   .widgetPrintSystem_label_itemsDetail_labelDATA.addInfo             --  Description
+ */
+?>
 <div class="widgetPrintSystem_label_labelBLOCK  itemLabel_v2" >
     <span class="widgetPrintSystem_label_itemLabel_labelDATA liveqrdata" style="display: none;"></span>
     <span class="widgetPrintSystem_label_itemLabel_labelDATA qr1data" style="display: none;"></span>
@@ -7,10 +29,10 @@
     </div>
     <div class="widgetPrintSystem_label_itemLabel_labelDATA qr1"></div>
     <h1 class="widgetPrintSystem_label_itemLabel_labelDATA company_name"></h1>
-    <h5 class="widgetPrintSystem_label_itemLabel_labelDATA destinationName"></h5>
+    <h5 style="word-wrap: break-word; width:85px;" class="widgetPrintSystem_label_itemLabel_labelDATA destinationName"></h5>
     <div class="under_qr">
         <h3 class="widgetPrintSystem_label_itemLabel_labelDATA brand_model"></h3>
-        <h4 class="widgetPrintSystem_label_itemLabel_labelDATA name_packaging"></h4>
+        <h4 style="word-wrap: break-word; width:185px;" class="widgetPrintSystem_label_itemLabel_labelDATA name_packaging"></h4>
         <h4 class="widgetPrintSystem_label_itemLabel_labelDATA family_subfamily"></h4>
         <div class="extra">
             <h5 class="widgetPrintSystem_label_itemLabel_labelDATA serialNo"></h5>
