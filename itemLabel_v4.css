@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <style> /*2.125x4*/
 .itemLabel_v4 {
 
@@ -24,9 +28,10 @@
         text-align: left !important;
         font-weight: bolder !important;
         font-size: 16px !important;
-        color: #000;
-        border: 1px solid black;
-        z-index: 1;
+        color: #000 !important;
+        border: 1px solid black !important;
+        z-index: 1 !important;
+        display: none !important;
     }
     
     .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.lot_number {
@@ -48,10 +53,10 @@
     }
 
     .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.code39 { /*barcode*/
-        transform: scale(1.3,2) !important;
+        transform: scale(1.48,2) !important;
         position: absolute !important;
         top: 186px !important;
-        left: 64px !important;
+        left: 67px !important;
         font-size: 10px !important;
     }
 
@@ -67,6 +72,7 @@
         position: absolute !important;
         left:  5px !important;
         top: 0px !important;
+        display: none !important;
     }
 
     .itemLabel_v4 .widgetPrintSystem_label_itemLabel_labelDATA.company_name {
@@ -152,6 +158,20 @@
         position: absolute !important;
         top: 6px !important;
         right: 37px !important;
+    }
+    
+    .itemLabel_v4 #img_data_matrix {
+        position: absolute !important;
+       /* bottom: 102px !important;
+        right: 48px !important;*/
+        top: 15px !important;
+        left: 12px !important;
+        max-height: 1.588cm !important;
+        min-height: 1.588cm !important;
+        height: 1.588cm !important;
+        min-width: 1.588cm !important;
+        max-width: 1.588cm !important;
+        width: 1.588cm !important;
     }
    
     /*.itemLabel_v4 .liveqr_code39 {
