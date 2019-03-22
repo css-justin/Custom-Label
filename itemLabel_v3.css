@@ -1,6 +1,6 @@
-<style> /* 2.125 x 4*/
+<style> /*2.125x4*/
 
-    .itemLabel_v3 {
+     .itemLabel_v3 {
 
     }
 
@@ -57,9 +57,9 @@
 
     .itemLabel_v3 .widgetPrintSystem_label_itemLabel_labelDATA.liveqr_hr { /*shortened qr*/
         position: absolute !important;
-        right: 43px !important;
-        top: -4px !important;
-        font-size: 13px !important;
+        right: 46px !important;
+        top: 22px !important;
+        font-size: 12px !important;
         font-weight: 800 !important;
        /* transform: rotate(-90deg) !important;*/
     }
@@ -68,6 +68,7 @@
         position: absolute !important;
         right: 36px !important;
         bottom: 107px !important;
+        display: none !important;
     }
 
     .itemLabel_v3 .widgetPrintSystem_label_itemLabel_labelDATA.company_name {
@@ -76,7 +77,7 @@
         left: 40px !important;
         top: 8px !important;
         font-size: 12px !important;
-        font-weight: bolder !important;
+        font-weight: 800 !important;
     }
 
     .itemLabel_v3 .widgetPrintSystem_label_itemLabel_labelDATA.destinationName {
@@ -92,9 +93,9 @@
         position: absolute !important;
         text-align: left !important;
         left: 40px !important;
-        top: 108px !important;
+        top: 102px !important;
         font-size: 12px !important;
-        font-weight: bold !important;
+        font-weight: 800 !important;
     }
 
     .itemLabel_v3 .widgetPrintSystem_label_itemLabel_labelDATA.name_packaging { /* common name and packaging description*/
@@ -159,22 +160,84 @@
 
     .itemLabel_v3 #img_trxio_label_logo {
         position: absolute !important;
-        bottom: 92px !important;
+        bottom: 70px !important;
         right: 36px !important;
+       /* display: none !important;*/
     }
     
-   /*}*/
+    .itemLabel_v3 #img_data_matrix {
+        position: absolute !important;
+        bottom: 102px !important;
+        right: 48px !important;
+        max-height: 1.588cm !important;
+        min-height: 1.588cm !important;
+        height: 1.588cm !important;
+        min-width: 1.588cm !important;
+        max-width: 1.588cm !important;
+        width: 1.588cm !important;
+
+    }
    
-    /*.itemLabel_v3 .liveqr_code39 {
+    /*.itemLabel_v4 .liveqr_code39 {
         
     }
     
-    .itemLabel_v3 .under_qr {
+    .itemLabel_v4 .under_qr {
         
     }
     
-    .itemLabel_v3 .extra {
+    .itemLabel_v4 .extra {
         
     }
  */
+
+
+
+
+
+
+
+  
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
 </style>
